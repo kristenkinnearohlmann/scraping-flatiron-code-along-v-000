@@ -26,6 +26,8 @@ class Scraper
       course.schedule = post.css(".date").text.strip
       course.description = post.css("p").text.strip
     end
+
+    pry
   end
 
   def get_courses
