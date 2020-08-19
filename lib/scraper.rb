@@ -27,7 +27,7 @@ class Scraper
       course.description = post.css("p").text.strip
     end
 
-    pry
+    binding.pry
   end
 
   def get_courses
